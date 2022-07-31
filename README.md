@@ -8,21 +8,24 @@ Program ini merupakan frontend website untuk tugas MST-Based Clustering yang dii
 Frontend dari program ini menggunakan bahasa typescript sedangkan vite digunakan sebagai alat untuk proses development frontend. Typescript merupakan bahasa object-oriented yang dikembangkan oleh Mircrosoft Corporation. Biaanya typescript digunakan untuk membuat web app berskala besar.
 
 # Screenshot Hasil Percobaan
+<div align="center">
 
-\
 ![](asset/input.png) \
 **Fig 1.** Menerima input file dan cluster\
+<br>
 ![](asset/visualize.png) \
 **Fig 2.** Menampilkan hasil clustering\
+<br>
 ![](asset/log.png) \
-**Fig 3** Menampilkan log visualisasi \
-
+**Fig 3** Menampilkan log visualisasi
+<br>
+</div>
 # Cara Menjalankan Aplikasi
 Prerequisuite:
     Docker
 1. Clone repository ini, kemudian redirect ke dalam folder client.
-2. Ketik pada cmd `docker-compose up -d`
-3. Telusuri pada web browser `https://localhost:5000/`
+2. Ketik pada cmd `docker compose up -d`
+3. Telusuri pada web browser `https://localhost:5000`
 
 # Referensi Belajar
 credits to: \
