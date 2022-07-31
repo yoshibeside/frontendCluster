@@ -18,7 +18,7 @@ Frontend dari program ini menggunakan bahasa typescript sedangkan vite digunakan
 Prerequisuite:
     Docker
 1. Clone repository ini, kemudian redirect ke dalam folder client.
-2. Ketik pada cmd `docker compose -d -f docker-compose.dev.yml up`
+2. Ketik pada cmd `docker-compose up -d`
 3. Telusuri pada web browser `https://localhost:5000/`
 
 # Referensi Belajar
