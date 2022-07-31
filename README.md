@@ -10,9 +10,12 @@ Frontend dari program ini menggunakan bahasa typescript sedangkan vite digunakan
 # Screenshot Hasil Percobaan
 
 \
+![](asset/input.png) \
 **Fig 1.** Menerima input file dan cluster\
+![](asset/visualize.png) \
 **Fig 2.** Menampilkan hasil clustering\
-**Fig 3** Menampilkan log visualisasi\
+![](asset/log.png) \
+**Fig 3** Menampilkan log visualisasi \
 
 # Cara Menjalankan Aplikasi
 Prerequisuite:
