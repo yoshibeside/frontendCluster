@@ -20,6 +20,7 @@ Frontend dari program ini menggunakan bahasa typescript sedangkan vite digunakan
 **Fig 3** Menampilkan log visualisasi
 <br>
 </div>
+<br>
 # Cara Menjalankan Aplikasi
 Prerequisuite:
     Docker
