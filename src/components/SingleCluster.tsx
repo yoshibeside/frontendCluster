@@ -43,13 +43,13 @@ const SingleTodo: React.FC<ResultProps> = ({result}): JSX.Element => {
         type="number"
         domain={[0, 'auto']}
         dataKey="X"
-        name="Speed"
+        name="X"
       />
       <YAxis
         type="number"
         domain={[0, 'auto']}
         dataKey="Y"
-        name="Accuracy"
+        name="Y"
       />
       <Tooltip cursor={{ strokeDasharray: "3 3" }} />
       <Scatter name="A school" data={result.Result}>
@@ -67,58 +67,5 @@ const SingleTodo: React.FC<ResultProps> = ({result}): JSX.Element => {
     </form>
   );
 };
-// }
-// function SingleTodo(props) {
-
-//   const inputRef = useRef<HTMLInputElement>(null);
-
-//   // const handleEdit = (e: React.FormEvent, id: number) => {
-//   //   e.preventDefault();
-//   //   setTodos(
-//   //     todos.map((todo) => (todo.id === id ? { ...todo, todo: editTodo } : todo))
-//   //   );
-//   //   setEdit(false);
-//   // };
-
-//   // const handleDelete = (id: number) => {
-//   //   setTodos(todos.filter((todo) => todo.id !== id));
-//   // };
-
-//   return (
-//     <form className="todos__single">
-//       <ResponsiveContainer width="99%" height={400}>
-//       <ScatterChart
-//       width={300}
-//       height={400}
-//     >
-//       <CartesianGrid width = {300}/>
-//       <XAxis
-//         type="number"
-//         domain={[0, 100]}
-//         dataKey="x"
-//         name="Speed"
-//       />
-//       <YAxis
-//         type="number"
-//         domain={[0, 100]}
-//         dataKey="y"
-//         name="Accuracy"
-//       />
-//       <Tooltip cursor={{ strokeDasharray: "3 3" }} />
-//       <Scatter name="A school" data={data}>
-//         {data.map((entry, index) => (
-//           <Cell key={`cell-${index}`} fill={entry.colourType ?? "#8884d8"} />
-//         ))}
-//       </Scatter>
-//     </ScatterChart>
-
-//       </ResponsiveContainer>
-        
-//       <div>
-        
-//       </div>
-//     </form>
-//   );
-// };
 
 export default SingleTodo;
